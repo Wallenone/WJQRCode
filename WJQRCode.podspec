@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WJQRCode'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of WJQRCode.'
 
 # This description is used to generate tags and improve search results.
@@ -31,8 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'WJQRCode/Classes/**/*'
-  s.resource     = "WJQRCode/SJQRCode.bundle"。
-  s.source = { :git => '～/code/320Categories' }.
+  s.resource     = 'WJQRCode/SJQRCode.bundle'
   
   # s.resource_bundles = {
   #   'WJQRCode' => ['WJQRCode/Assets/*.png']
