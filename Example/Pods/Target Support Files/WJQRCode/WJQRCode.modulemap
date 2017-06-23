@@ -1,0 +1,6 @@
+framework module WJQRCode {
+  umbrella header "WJQRCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

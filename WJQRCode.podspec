@@ -21,16 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wanjiehuizhaofang/WJQRCode'
+  s.homepage         = 'www.baidu.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wanjiehuizhaofang' => 'wanjie@huizhaofang.com' }
-  s.source           = { :git => 'https://github.com/wanjiehuizhaofang/WJQRCode.git', :tag => s.version.to_s }
+  s.author           = { 'wallen' => 'wanjie@huizhaofang.com' }
+  s.source           = { :git => 'https://github.com/Wallenone/WJQRCode.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'WJQRCode/Classes/**/*'
+  s.resource     = "WJQRCode/SJQRCode.bundle"。
+  s.source = { :git => '～/code/320Categories' }.
   
   # s.resource_bundles = {
   #   'WJQRCode' => ['WJQRCode/Assets/*.png']
